@@ -2,12 +2,18 @@
 #include <stdlib.h>
 
 
-int fun(int num1,int num2)
+int add(int num1,int num2)
 {
     return num1+num2;
 }
+
+int div(int num1,int num2)
+{
+    return num1/num2;
+}
+
 int main()
 {
-    int f=fun(10,20);
+    int f=add(10,20);
     printf("%d",f);
 }
